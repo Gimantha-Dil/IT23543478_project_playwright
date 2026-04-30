@@ -16,10 +16,9 @@ Automated testing of the Chat Sinhala transliteration function at [https://www.p
 
 ## Prerequisites
 
-- Python 3.11 or 3.12
+- Python 3.11 or Up version     (You must have python installed on your pc)
 - Google Chrome (recommended) — or let Playwright install Chromium automatically
-- Git
-
+- Git `                         (You must have Git installed on your pc)
 ---
 
 ## Setup Instructions
@@ -32,18 +31,29 @@ git clone https://github.com/Gimantha-Dil/IT23543478_project_playwright.git
 ### 2. Dependencies run (one time)
 
 ```bash
-python -m pip install -U pip
+python -m pip install -U pip 
 python -m pip install playwright openpyxl
 python -m playwright install
 ```
+**or**
 
+```bash
+py -m pip install -U pip 
+py -m pip install playwright openpyxl
+py -m playwright install
 ---
+
 ## Running the Tests
 
 Then run it from inside the `IT23543478_project_playwright` folder:
 
 ```bash
 python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+```
+**or**
+
+```bash
+py test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
 ### Command line arguments
