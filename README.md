@@ -29,19 +29,7 @@ Automated testing of the Chat Sinhala transliteration function at [https://www.p
 ```bash
 git clone https://github.com/Gimantha-Dil/IT23543478_project_playwright.git
 ```
-
-## 2. cd in to the project folder 
-
-```bash
-cd test_automation
-```
-
-**Or if you extracted the ZIP manually:**
-
-```bash
-cd test_automation
-```
-### 3. Dependencies run (one time)
+### 2. Dependencies run (one time)
 
 ```bash
 python -m pip install -U pip
@@ -52,7 +40,7 @@ python -m playwright install
 ---
 ## Running the Tests
 
-Then run it from inside the `test_automation` folder:
+Then run it from inside the `IT23543478_project_playwright` folder:
 
 ```bash
 python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
@@ -77,10 +65,10 @@ python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https:
 
 ```
 IT23543478__project_-playwright/
-├── IT23543478__project_-playwright/
-|   ├── Assignment 1 - Test cases.xlsx  # Test cases with inputs, expected & actual outputs
-|   ├── README.md                       # This file
-    ├── test_automation.py              # Main Playwright automation script
+
+├── Assignment 1 - Test cases.xlsx  # Test cases with inputs, expected & actual outputs
+├── README.md                       # This file
+├── test_automation.py              # Main Playwright automation script
 ```
 
 ---
