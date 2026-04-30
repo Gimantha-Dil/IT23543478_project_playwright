@@ -41,9 +41,9 @@ python -m playwright install
 py -m pip install -U pip 
 py -m pip install playwright openpyxl
 py -m playwright install
----
+```
 
-## Running the Tests
+### 3. Running the Tests
 
 Then run it from inside the `IT23543478_project_playwright` folder:
 
