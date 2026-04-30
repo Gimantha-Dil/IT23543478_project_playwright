@@ -33,13 +33,13 @@ git clone https://github.com/Gimantha-Dil/IT23543478_project_playwright.git
 ## 2. cd in to the project folder 
 
 ```bash
-cd IT23543478__project_-playwright-main
+cd test_automation
 ```
 
 **Or if you extracted the ZIP manually:**
 
 ```bash
-cd IT23543478__project_-playwright-main
+cd test_automation
 ```
 ### 3. Dependencies run (one time)
 
