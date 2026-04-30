@@ -27,7 +27,7 @@ Automated testing of the Chat Sinhala transliteration function at [https://www.p
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/Gimantha-Dil/IT23543478__project_-playwright.git
+git clone https://github.com/Gimantha-Dil/IT23543478_project_playwright.git
 ```
 
 ## 2. cd in to the project folder 
