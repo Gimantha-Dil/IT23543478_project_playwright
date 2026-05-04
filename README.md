@@ -76,16 +76,16 @@ py IT23543478_test_automation.py --excel "IT23543478_Test cases.xlsx" --url "htt
 ```
 IT23543478__project_-playwright/
 
-├── Assignment 1 - Test cases.xlsx  # Test cases with inputs, expected & actual outputs
-├── README.md                       # This file
-├── test_automation.py              # Main Playwright automation script
+├── IT23543478_Test cases.xlsx                 # Test cases with inputs, expected & actual outputs
+├── IT23543478_test_automation.py              # Main Playwright automation script
+├── README.md                                  # This file
 ```
 
 ---
 
 ## Structure of Excel File
 
-The `Assignment 1 - Test cases.xlsx` file contains the following columns:
+The `IT23543478_Test cases.xlsx` file contains the following columns:
 
 | Column                                           | Description                                            |
 |--------------------------------------------------|--------------------------------------------------------|
